@@ -1,0 +1,58 @@
+.bg-container {
+  height: 100vh;
+  display: flex;
+}
+
+.card-div {
+  flex-grow: 1;
+  border: 2px solid red;
+  background-color: #3b4b69;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-div-heading {
+  text-align: center;
+  margin-bottom: 50px;
+  color: white;
+  font-family: roboto;
+}
+.card {
+  background-image: url('https://assets.ccbp.in/frontend/hooks/credit-card-bg.png');
+  background-size: cover;
+  width: 75%;
+  height: 50%;
+  color: white;
+  padding: 20px 20px 20px 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.payment-div {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-m-div {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  outline: none;
+  margin-top: 20px;
+}
